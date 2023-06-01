@@ -6,6 +6,16 @@ screen and continue running in the background, then later reattached.
 
 This release runs on OpenBSD, FreeBSD, NetBSD, Linux, macOS and Solaris.
 
+This fork is intended to augment tmux with Serial Support similar to that
+in screen. Multiple parties have long identified this as a missing feature
+in tmux, but the original authors have stuck to a zealotry against it,
+so I finally decided that the only logical solution is to create a fork.
+
+It's tragic to have to resort to this tactic in the open source world as it
+often fragments the community and does more harm than good, but when package
+maintainers dig in against the users like this, there are few other viable
+options.
+
 * Dependencies
 
 tmux depends on libevent 2.x, available from:
